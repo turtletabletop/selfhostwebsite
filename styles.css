@@ -63,5 +63,30 @@ i {
 }
 
 body {
-    background-color:mediumseagreen;
+    background-color:slateblue;
+}
+
+a:link {
+  color:lavender;
+}
+
+a:visited {
+  color:magenta
+}
+
+a:hover {
+  color:mediumturquoise
+}
+
+.photographContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin: 2vw;
+}
+
+.photograph {
+  background-color: white;
+  height: 25vw;
+  width: 25vw;  
 }
