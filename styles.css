@@ -1,3 +1,5 @@
+/* general website things */
+
 @font-face {
     font-family: "JetBrains Mono Regular";
     src: url(webfonts/JetBrainsMono-Regular.woff2);
@@ -78,6 +80,8 @@ a:hover {
   color:mediumturquoise
 }
 
+/* home page things */
+
 .photographContainer {
   display: flex;
   flex-direction: row;
@@ -89,4 +93,54 @@ a:hover {
   background-color: white;
   height: 25vw;
   width: 25vw;  
+}
+
+/* contact card stuff */
+
+.contactCardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contactCard {
+  background-color: white;
+  height: auto;
+  width: 75vw;
+  padding: 1vw;
+}
+
+/* project page */
+
+.projectTextContainer {
+  position: static;
+  left:0;  
+  cursor: pointer;
+}
+
+.hoverContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  height: 100vh;
+  width: 40vw;
+  padding: 2vw;
+}
+
+.hoverImage {
+  display: none;
+  position: static;
+  top: 100%;
+  left:0;
+  z-index: 10;
+  width:38vw;
+  object-fit: cover;
+  
+}
+
+.projectTextContainer:hover .hoverImage {
+  display:block;
 }
