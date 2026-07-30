@@ -1,3 +1,67 @@
+@font-face {
+    font-family: "JetBrains Mono Regular";
+    src: url(webfonts/JetBrainsMono-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono Bold";
+    src: url(webfonts/JetBrainsMono-Bold.woff2);
+}
+
+@font-face {
+    font-family: "JetBrains Mono Italic";
+    src: url(webfonts/JetBrainsMono-Italic.woff2);
+}
+
+
+p {
+    font-family: "Jetbrains Mono H1", monospace;
+}
+
+/* Apply the custom font to all heading tags */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jetbrains Mono Bold', monospace; /* Adds a fallback font */
+}
+
+/* Define explicit sizes for each header level */
+h1 {
+  font-size: 3.0rem; 
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1.0rem;
+}
+
+b {
+  font-family: 'Jetbrains Mono Bold', monospace;
+  font-weight: 900; 
+}
+
+i {
+   font-family: 'Jetbrains Mono Italic', monospace;
+   font-weight: italic;  
+}
+
 body {
     background-color:mediumseagreen;
 }
