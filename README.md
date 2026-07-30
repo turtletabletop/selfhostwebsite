@@ -1,6 +1,6 @@
 # Turtletabletop's personal website!
 
-[Live Demo](https://turtletabletop.github.io/selfhostwebsite/)
+https://turtletabletop.github.io/selfhostwebsite/
 
 ## Why I built this website
 I built this website mainly to become my keeping ground for tracking all the cool things I've done over the years, and as a digital home for myself!
